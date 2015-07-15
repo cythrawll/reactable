@@ -378,7 +378,7 @@
                             onFilter: this.props.onFilter, 
                             placeholder: this.props.filterPlaceholder, 
                             value: this.props.currentFilter}
-                        ) : '', 
+                        ) : null, 
                     React.createElement("tr", {className: "reactable-column-header"}, Ths)
                 )
             );
